@@ -1,0 +1,10 @@
+.darkModeSelectionContainer {
+    position: fixed;
+    top: 24px;
+    right: 24px;
+    background-color: transparent;
+    border: none;
+    > img {
+        width: 35px;
+    }
+}

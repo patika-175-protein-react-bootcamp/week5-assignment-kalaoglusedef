@@ -1,0 +1,60 @@
+.inputContainer {
+    > label {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: 0.15px;
+        color: #3c3c3c;
+        text-transform: uppercase;
+
+        &.required {
+            &:after {
+                color: red;
+                content: "*";
+                position: relative;
+                margin-left: 4px;
+                font-family: arial;
+            }
+        }
+    }
+
+    > input {
+        border: 2px solid #8e8e8e;
+        box-sizing: border-box;
+        border-radius: 4px;
+        width: 100%;
+        height: 56px;
+        margin-top: 12px;
+        margin-bottom: 2px;
+
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.15px;
+        color: black;
+
+        padding-left: 12px;
+
+        ::placeholder {
+            color: #8e8e8e;
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: 0.15px;
+            color: #8e8e8e;
+        }
+    }
+
+    > span {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.15px;
+        color: #ee6356;
+    }
+
+    &.dark {
+        > label {
+            color: #fefefe;
+        }
+    }
+}
